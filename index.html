@@ -14,20 +14,21 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 <body>
-  <main class="bg-red bg-[url('../images/bg-intro-mobile.png')] min-h-screen">
+  <main class="bg-red bg-[url('../images/bg-intro-mobile.png')] min-h-screen
+  flex flex-col justify-center items-center">
     <header>
-      <h1 class="text-white">Learn to code by watching others</h1>
-      <p class="text-white">
+      <h1 class="text-white text-center">Learn to code by watching others</h1>
+      <p class="text-white text-center">
       	See how experienced developers solve problems in real-time. Watching 
 	scripted tutorials is great, but understanding how developers think is 
 	invaluable.
       </p>
     </header>
-    <section>
-      <h2 class="bg-blue text-white">
+    <section class="flex flex-col items-center">
+      <h2 class="bg-blue text-white text-center">
 	<b>Try it free 7 days</b> then $20/mo. thereafter
       </h2>
-      <form class="bg-white">
+      <form class="bg-white flex flex-col items-center">
         <label for="first-name" class="fixed top-[-99rem] left-[-99rem]">
 	  First Name
 	</label>
@@ -56,7 +57,7 @@
         <button type="submit" class="bg-green text-white">
           Claim your free trial
         </button>
-        <p><small class="text-grayish-blue">
+        <p class="text-center"><small class="text-grayish-blue">
 	  By clicking the button, you are agreeing to our 
           <a href="#" class="text-red">Terms and Services</a>
         </small></p>

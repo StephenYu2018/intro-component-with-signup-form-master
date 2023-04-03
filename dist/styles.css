@@ -528,8 +528,24 @@ video {
   top: -99rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .bg-blue {
@@ -554,6 +570,10 @@ video {
 
 .bg-\[url\(\'\.\.\/images\/bg-intro-mobile\.png\'\)\] {
   background-image: url('../images/bg-intro-mobile.png');
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-grayish-blue {
