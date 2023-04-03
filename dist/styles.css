@@ -528,6 +528,10 @@ video {
   top: -99rem;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(248 32% 49% / var(--tw-bg-opacity));
@@ -546,6 +550,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-intro-mobile\.png\'\)\] {
+  background-image: url('../images/bg-intro-mobile.png');
 }
 
 .text-grayish-blue {
