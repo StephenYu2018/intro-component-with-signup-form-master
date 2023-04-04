@@ -15,62 +15,70 @@
 </head>
 <body>
   <main class="bg-red bg-[url('../images/bg-intro-mobile.png')] min-h-screen
-  flex flex-col justify-center items-center px-6 py-[3.75rem] space-y-4">
-    <header class="w-[20.4375rem] pt-10 pb-[3.375rem] space-y-9">
-      <h1 class="text-white text-center">Learn to code by watching others</h1>
-      <p class="text-white text-center">
+  flex flex-col justify-center items-center px-6 pt-12 pb-14 space-y-2">
+    <header class="w-[20.4375rem] pt-10 pb-[3.35rem] space-y-6 font-poppins">
+      <h1 class="text-white text-center text-[1.75rem]/9 font-bold">
+        Learn to code by watching others
+      </h1>
+      <p class="text-white text-center text-base/[1.65rem] font-medium">
       	See how experienced developers solve problems in real-time. Watching 
 	scripted tutorials is great, but understanding how developers think is 
 	invaluable.
       </p>
     </header>
     <section class="flex flex-col items-center w-[20.4375rem] space-y-6">
-      <h2 class="bg-blue text-white text-center h-24 px-20
-      pt-[1.625rem] pb-6 rounded-xl">
+      <h2 class="bg-blue text-white text-center h-24 px-16
+      py-6 rounded-xl font-poppins text-base/7">
 	<b>Try it free 7 days</b> then $20/mo. thereafter
       </h2>
-      <form class="bg-white flex flex-col items-center h-[30.125rem]
-      px-6 pt-6 pb-[1.875rem] rounded-xl">
+      <form class="bg-white flex flex-col items-center px-6 pt-6 pb-6
+        rounded-xl font-poppins">
         <label for="first-name" class="fixed top-[-99rem] left-[-99rem]">
 	  First Name
 	</label>
         <input type="text" placeholder="First Name"
         id="first-name" name="first-name"
-        class="placeholder:text-dark-blue w-[17.5rem] h-14 px-5 pt-6
-        pb-[1.375rem] rounded border border-grayish-blue/60 mt-0">
+        class="text-dark-blue placeholder:text-dark-blue/70 w-[17.5rem]
+        h-14 px-5 pt-6 pb-[1.375rem] rounded border border-grayish-blue/60
+        mt-0 font-semibold text-sm">
 
         <label for="last-name" class="fixed top-[-99rem] left-[-99rem]">
 	  Last Name
 	</label>
         <input type="text" placeholder="Last Name"
         id="last-name" name="last-name"
-        class="placeholder:text-dark-blue w-[17.5rem] h-14 px-5 pt-6
-        pb-[1.375rem] rounded border border-grayish-blue/60 mt-4">
+        class="text-dark-blue placeholder:text-dark-blue/70 w-[17.5rem]
+        h-14 px-5 pt-6 pb-[1.375rem] rounded border border-grayish-blue/60
+        mt-4 font-semibold text-sm">
 
 	<label for="email-address" class="fixed top-[-99rem] left-[-99rem]">
 	  Email Address
 	</label>
         <input type="email" placeholder="Email Address"
         id="email-address" name="email-address"
-        class="placeholder:text-dark-blue w-[17.5rem] h-14 px-5 pt-6
-        pb-[1.375rem] rounded border border-grayish-blue/60 mt-4">
+        class="text-dark-blue placeholder:text-dark-blue/70 w-[17.5rem]
+        h-14 px-5 pt-6 pb-[1.375rem] rounded border border-grayish-blue/60
+        mt-4 font-semibold text-sm">
 
 	<label for="password" class="fixed top-[-99rem] left-[-99rem]">
 	  Password
 	</label>
         <input type="password" placeholder="Password"
         id="password" name="password"
-        class="placeholder:text-dark-blue w-[17.5rem] h-14 px-5 pt-6
-        pb-[1.375rem] rounded border border-grayish-blue/60 mt-4">
+        class="text-dark-blue placeholder:text-dark-blue/70 w-[17.5rem]
+        h-14 px-5 pt-6 pb-[1.375rem] rounded border border-grayish-blue/60
+        mt-4 font-semibold text-sm">
 
-        <button type="submit" class="bg-green text-white w-[17.5rem]
-        h-14 px-[2.6875rem] pt-5 pb-4 rounded mt-4">
+        <button type="submit" class="bg-green text-white font-semibold uppercase
+        w-[17.5rem] h-14 px-[2.6875rem] pt-[1.125rem] pb-4 rounded mt-4">
           Claim your free trial
         </button>
-        <p class="text-center mt-4"><small class="text-grayish-blue">
-	  By clicking the button, you are agreeing to our 
-          <a href="#" class="text-red">Terms and Services</a>
-        </small></p>
+        <p class="text-center mt-2 px-4 leading-5">
+	  <small class="text-[0.7rem] text-grayish-blue font-medium">
+	    By clicking the button, you are agreeing to our 
+            <a href="#" class="text-red font-bold">Terms and Services</a>
+          </small>
+        </p>
       </form>
     </section>
   </main>
