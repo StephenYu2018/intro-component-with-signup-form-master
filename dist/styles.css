@@ -548,10 +548,6 @@ video {
   height: 3.5rem;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -653,13 +649,9 @@ video {
   padding-right: 2.6875rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.pb-14 {
-  padding-bottom: 3.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-4 {
@@ -676,6 +668,10 @@ video {
 
 .pb-\[3\.35rem\] {
   padding-bottom: 3.35rem;
+}
+
+.pb-\[4\.2125rem\] {
+  padding-bottom: 4.2125rem;
 }
 
 .pt-10 {
