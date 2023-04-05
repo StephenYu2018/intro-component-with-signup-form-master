@@ -544,10 +544,6 @@ video {
   display: flex;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -558,6 +554,10 @@ video {
 
 .w-\[20\.4375rem\] {
   width: 20.4375rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -660,10 +660,6 @@ video {
 
 .pb-\[0\.6875rem\] {
   padding-bottom: 0.6875rem;
-}
-
-.pb-\[1\.375rem\] {
-  padding-bottom: 1.375rem;
 }
 
 .pb-\[3\.35rem\] {
@@ -791,4 +787,118 @@ video {
 
 .placeholder\:text-dark-blue\/80::placeholder {
   color: hsl(249 10% 26% / 0.8);
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-\[url\(\'\.\.\/images\/bg-intro-desktop\.png\'\)\] {
+    background-image: url('../images/bg-intro-desktop.png');
+  }
+
+  .lg\:bg-\[left_0\.5rem_top\] {
+    background-position: left 0.5rem top;
+  }
+
+  .lg\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .xl\:h-\[35\.375rem\] {
+    height: 35.375rem;
+  }
+
+  .xl\:w-\[28\.75rem\] {
+    width: 28.75rem;
+  }
+
+  .xl\:w-\[33\.75rem\] {
+    width: 33.75rem;
+  }
+
+  .xl\:w-\[34\.6875rem\] {
+    width: 34.6875rem;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .xl\:space-y-7 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
+  }
+
+  .xl\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .xl\:px-\[8\.25rem\] {
+    padding-left: 8.25rem;
+    padding-right: 8.25rem;
+  }
+
+  .xl\:pb-\[2\.6rem\] {
+    padding-bottom: 2.6rem;
+  }
+
+  .xl\:pb-\[7\.325rem\] {
+    padding-bottom: 7.325rem;
+  }
+
+  .xl\:pl-40 {
+    padding-left: 10rem;
+  }
+
+  .xl\:pr-\[10\.3125rem\] {
+    padding-right: 10.3125rem;
+  }
+
+  .xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .xl\:pt-\[11\.25rem\] {
+    padding-top: 11.25rem;
+  }
+
+  .xl\:pt-\[7\.3rem\] {
+    padding-top: 7.3rem;
+  }
+
+  .xl\:text-left {
+    text-align: left;
+  }
+
+  .xl\:text-\[3\.08rem\]\/\[1\.15\] {
+    font-size: 3.08rem;
+    line-height: 1.15;
+  }
 }
