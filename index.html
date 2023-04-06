@@ -17,27 +17,33 @@
   <main class="bg-red bg-[url('../images/bg-intro-mobile.png')]
   lg:bg-[url('../images/bg-intro-desktop.png')] lg:bg-[left_0.5rem_top]
   lg:bg-repeat-y min-h-screen flex flex-col xl:flex-row
-  justify-center items-center px-6 xl:pl-40 xl:pr-[10.3125rem] pt-12 xl:pt-[7.3rem]
-  pb-[4.0625rem] xl:pb-[7.325rem] xl:space-x-5 space-y-2 xl:space-y-0">
-    <header class="w-[20.4375rem] xl:w-[34.6875rem] xl:h-[35.375rem] pt-10 xl:pt-[11.25rem]
-      pb-[3.35rem] space-y-6 xl:space-y-7 font-poppins">
-      <h1 class="text-white text-center xl:text-left text-[1.75rem]/9 xl:text-[3.08rem]/[1.15] font-bold">
+  justify-center items-center px-6 xl:pl-40 xl:pr-[10.3125rem] pt-12
+  xl:pt-[7.3rem] pb-[4.0625rem] xl:pb-[7.325rem] xl:space-x-5 space-y-2
+  xl:space-y-0">
+    <header class="w-[20.4375rem] xl:w-[34.6875rem] xl:h-[35.375rem] pt-10
+    xl:pt-[11.25rem] pb-[3.35rem] space-y-6 xl:space-y-7 font-poppins">
+      <h1 class="text-white text-center xl:text-left text-[1.75rem]/9
+      xl:text-[3.08rem]/[1.15] font-bold">
         Learn to code by watching others
       </h1>
-      <p class="text-white text-center xl:text-left text-base/[1.65rem] font-medium">
+      <p class="text-white text-center xl:text-left text-base/[1.65rem]
+      font-medium">
       	See how experienced developers solve problems in real-time. Watching 
 	scripted tutorials is great, but understanding how developers think is 
 	invaluable.
       </p>
     </header>
     <section class="flex flex-col items-center w-[20.4375rem] xl:w-[33.75rem]
-      space-y-6">
+    space-y-6">
       <h2 class="bg-blue text-white text-center w-full px-16
-      py-4 rounded-xl font-poppins text-base/7 shadow-[0_0.5rem_0_0_rgba(0,0,0,0.1)]">
+      py-4 rounded-xl font-poppins text-base/7
+      shadow-[0_0.5rem_0_0_rgba(0,0,0,0.1)]">
 	<b>Try it free 7 days</b> then $20/mo. thereafter
       </h2>
-      <form class="bg-white flex flex-col items-center px-6 xl:px-10 pt-6 xl:pt-10
-        pb-6 xl:pb-[2.6rem] rounded-xl font-poppins shadow-[0_0.5rem_0_0_rgba(0,0,0,0.15)]">
+      <form class="bg-white flex flex-col items-center px-6 xl:px-10 pt-6
+      xl:pt-10 pb-6 xl:pb-[2.6rem] rounded-xl font-poppins
+      shadow-[0_0.5rem_0_0_rgba(0,0,0,0.15)]"
+      novalidate>
         <label for="first-name" class="fixed top-[-99rem] left-[-99rem]">
 	  First Name
 	</label>
@@ -46,6 +52,9 @@
         class="text-dark-blue placeholder:text-dark-blue/80 px-5 xl:px-8 py-4
         rounded border border-grayish-blue/60 mt-0 font-semibold text-sm
         w-[17.5rem] xl:w-[28.75rem]">
+	<strong id="first-name-error" class="block hidden text-desaturated-red
+	text-xs font-medium italic text-right w-full mt-2"
+	aria-live="polite"></strong>
 
         <label for="last-name" class="fixed top-[-99rem] left-[-99rem]">
 	  Last Name
@@ -55,6 +64,9 @@
         class="text-dark-blue placeholder:text-dark-blue/80 px-5 xl:px-8 py-4
         rounded border border-grayish-blue/60 mt-4 xl:mt-5 font-semibold text-sm
         w-[17.5rem] xl:w-[28.75rem]">
+        <strong id="last-name-error" class="block hidden text-desaturated-red
+	text-xs font-medium italic text-right w-full mt-2"
+        aria-live="polite"></strong>
 
 	<label for="email-address" class="fixed top-[-99rem] left-[-99rem]">
 	  Email Address
@@ -64,6 +76,9 @@
         class="text-dark-blue placeholder:text-dark-blue/80 px-5 xl:px-8 py-4
         rounded border border-grayish-blue/60 mt-4 xl:mt-5 font-semibold text-sm
         w-[17.5rem] xl:w-[28.75rem]">
+        <strong id="email-address-error" class="block hidden text-desaturated-red
+	text-xs font-medium italic text-right w-full mt-2"
+        aria-live="polite"></strong>
 
 	<label for="password" class="fixed top-[-99rem] left-[-99rem]">
 	  Password
@@ -73,6 +88,9 @@
         class="text-dark-blue placeholder:text-dark-blue/80 px-5 xl:px-8 py-4
         rounded border border-grayish-blue/60 mt-4 xl:mt-5 font-semibold text-sm
         w-[17.5rem] xl:w-[28.75rem]">
+        <strong id="password-error" class="block hidden text-desaturated-red
+        text-xs font-medium italic text-right w-full mt-2"
+        aria-live="polite"></strong>
 
         <button type="submit" class="bg-green text-white font-semibold uppercase
         w-[17.5rem] xl:w-[28.75rem] px-[2.6875rem] xl:px-[8.25rem] pt-[1.3125rem]
@@ -83,11 +101,15 @@
         <p class="text-center mt-3 xl:mt-4 px-4 leading-[1.2rem]">
 	  <small class="text-[0.7rem] text-grayish-blue font-medium">
 	    By clicking the button, you are agreeing to our 
-            <a href="#" class="text-red font-bold saturate-[.75]">Terms and Services</a>
+            <a href="#" class="text-desaturated-red font-bold">
+	      Terms and Services
+	    </a>
           </small>
         </p>
       </form>
     </section>
   </main>
+
+  <script src="./validate.js" defer></script>
 </body>
 </html>
