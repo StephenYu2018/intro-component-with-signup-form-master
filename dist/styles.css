@@ -792,6 +792,10 @@ video {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
+.caret-blue {
+  caret-color: hsl(248, 32%, 49%);
+}
+
 .shadow-\[0_0\.25rem_0_0_rgb\(64\2c 186\2c 133\)\] {
   --tw-shadow: 0 0.25rem 0 0 rgb(64,186,133);
   --tw-shadow-colored: 0 0.25rem 0 0 var(--tw-shadow-color);
@@ -836,6 +840,16 @@ video {
 .placeholder\:text-desaturated-red::placeholder {
   --tw-text-opacity: 1;
   color: hsl(355 60% 65% / var(--tw-text-opacity));
+}
+
+.focus\:border-blue:focus {
+  --tw-border-opacity: 1;
+  border-color: hsl(248 32% 49% / var(--tw-border-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (min-width: 1024px) {
