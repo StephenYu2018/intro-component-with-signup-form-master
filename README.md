@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Solution]()
-- [Live Website]()
+- [Live Website](https://www.stephenyu2018.github.io/intro-component-with-signup-form-master)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Vanilla JavaScript
-- [TailwindCSS](https://tailwindcss.com/) - CSS Utility Framework
+- [TailwindCSS](https://www.tailwindcss.com/) - CSS Utility Framework
 
 ### What I learned
 
