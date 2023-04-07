@@ -683,6 +683,10 @@ video {
   padding-bottom: 0.6875rem;
 }
 
+.pb-\[1\.0625rem\] {
+  padding-bottom: 1.0625rem;
+}
+
 .pb-\[3\.35rem\] {
   padding-bottom: 3.35rem;
 }
@@ -697,6 +701,10 @@ video {
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .pt-6 {
@@ -859,15 +867,6 @@ video {
 .focus\:border-blue:focus {
   --tw-border-opacity: 1;
   border-color: hsl(248 32% 49% / var(--tw-border-opacity));
-}
-
-.focus\:bg-green\/70:focus {
-  background-color: hsl(154 59% 51% / 0.7);
-}
-
-.focus\:shadow-\[hsla\(154\2c 49\%\2c 49\%\2c 0\.8\)\]:focus {
-  --tw-shadow-color: hsla(154,49%,49%,0.8);
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .focus\:outline-none:focus {

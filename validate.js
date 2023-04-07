@@ -21,8 +21,8 @@ const defaultInputStyles = [
 ];
 
 const mainStyles = {
-  _default: ['xl:pt-[7.3rem]', 'xl:pb-[7.325rem]'],
-  _error: ['xl:pt-[4.875rem]', 'xl:pb-[4.73125]'] 
+  _default: ['pt-12', 'pb-[4.0625rem]', 'xl:pt-[7.3rem]', 'xl:pb-[7.325rem]'],
+  _error: ['pt-3', 'pb-[1.0625rem]', 'xl:pt-[4.875rem]', 'xl:pb-[4.73125]'] 
 };
 
 signUpForm.addEventListener('submit', function(event) {
