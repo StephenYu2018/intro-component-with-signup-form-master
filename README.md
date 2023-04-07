@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Solution]()
-- [Live Website](https://www.stephenyu2018.github.io/intro-component-with-signup-form-master)
+- [Live Website](https://stephenyu2018.github.io/intro-component-with-signup-form-master)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Vanilla JavaScript
-- [TailwindCSS](https://www.tailwindcss.com/) - CSS Utility Framework
+- [TailwindCSS](https://tailwindcss.com/) - CSS Utility Framework
 
 ### What I learned
 
@@ -61,9 +61,9 @@ I also want to learn how to make more fluid layouts, taking advantage of `min()`
 
 ### Useful resources
 
-- [Client-side form validation](https://www.developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - This helped me understand the difference between client-side validation and server-side validation.
+- [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - This helped me understand the difference between client-side validation and server-side validation.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/stephenyu2018)
+- Frontend Mentor - [@yourusername](https://frontendmentor.io/profile/stephenyu2018)
 
