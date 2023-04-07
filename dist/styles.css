@@ -532,8 +532,8 @@ video {
   margin-top: 0px;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .mt-3 {
@@ -918,6 +918,10 @@ video {
     padding-bottom: 2.6rem;
   }
 
+  .xl\:pb-\[4\.73125\] {
+    padding-bottom: 4.73125;
+  }
+
   .xl\:pb-\[7\.325rem\] {
     padding-bottom: 7.325rem;
   }
@@ -936,6 +940,10 @@ video {
 
   .xl\:pt-\[11\.25rem\] {
     padding-top: 11.25rem;
+  }
+
+  .xl\:pt-\[4\.875rem\] {
+    padding-top: 4.875rem;
   }
 
   .xl\:pt-\[7\.3rem\] {

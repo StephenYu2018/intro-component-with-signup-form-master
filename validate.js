@@ -1,3 +1,4 @@
+const main = document.querySelector('main');
 const signUpForm = document.querySelector('form');
 
 const firstName = document.getElementById('first-name');
@@ -15,10 +16,19 @@ const passwordError = document.getElementById('password-error');
 const errorInputStyles = [
   'border-desaturated-red', 'border-2', 'placeholder:text-desaturated-red'
 ];
-const defaultInputStyles = ['border-grayish-blue/60',
-  'placeholder:text-dark-blue'];
+const defaultInputStyles = [
+  'border-grayish-blue/60', 'placeholder:text-dark-blue'
+];
+
+const mainStyles = {
+  _default: ['xl:pt-[7.3rem]', 'xl:pb-[7.325rem]'],
+  _error: ['xl:pt-[4.875rem]', 'xl:pb-[4.73125]'] 
+};
 
 signUpForm.addEventListener('submit', function(event) {
+  main.classList.remove(...mainStyles['_error']);
+  main.classList.add(...mainStyles['_default']);
+
   if (isEmpty(firstName)) {
     showInvalid({ input: firstName, error: firstNameError,
       message: 'First name cannot be empty'
@@ -61,6 +71,9 @@ function showInvalid({ input, error, message }, placeholder) {
   input.style.background = "url('./images/icon-error.svg') no-repeat right 1.5rem top 50%";
   input.value = '';
   input.placeholder = placeholder;
+
+  main.classList.remove(...mainStyles['_default']);
+  main.classList.add(...mainStyles['_error']);
 }
 
 function isEmailValid() {
