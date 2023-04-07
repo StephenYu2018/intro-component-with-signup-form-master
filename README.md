@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
+- [Solution](https://frontendmentor.io/solutions/intro-component-with-signup-form-tailwindcss-TRJgy6qwhB)
 - [Live Website](https://stephenyu2018.github.io/intro-component-with-signup-form-master)
 
 ## My process
@@ -65,5 +65,5 @@ I also want to learn how to make more fluid layouts, taking advantage of `min()`
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://frontendmentor.io/profile/stephenyu2018)
+- Frontend Mentor - [@yourusername](https://frontendmentor.io/profile/StephenYu2018)
 
